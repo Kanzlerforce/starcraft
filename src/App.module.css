@@ -1,0 +1,11 @@
+.App {
+    height: 1000px;
+    width: 1200px;
+    margin: 20px;
+    background: #020914;
+    background: -webkit-linear-gradient(bottom, #020914, #01254C);
+    background: -moz-linear-gradient(bottom, #020914, #01254C);
+    background: linear-gradient(to top, #020914, #01254C);
+    padding: 20px;
+}
+

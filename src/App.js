@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.module.css';
+import Settings from './components/Settings/Settings';
+import classes from './App.module.css';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <h1>Starcraft</h1>
+            <div className={classes.App}>
+                <Settings />
             </div>
         );
     };
